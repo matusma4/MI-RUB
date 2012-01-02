@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=IBM437" http-equiv="Content-Type">
+
+<title>class Algorithm - RDoc Documentation</title>
+
+<link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="./js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/darkfish.js"></script>
+
+
+<body id="top" class="class">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="./index.html">Home</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>lib/algorithm.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    <nav id="parent-class-section" class="section">
+  <h3 class="section-header">Parent</h3>
+  
+  <p class="link">Object
+  
+</nav>
+
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li><a href="#method-c-new">::new</a>
+    
+    <li><a href="#method-i-get_next_path">#get_next_path</a>
+    
+    <li><a href="#method-i-get_path_home">#get_path_home</a>
+    
+    <li><a href="#method-i-go_there">#go_there</a>
+    
+    <li><a href="#method-i-solve">#solve</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="./input1.html">input1</a>
+  
+    <li class="file"><a href="./input2.html">input2</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="./Algorithm.html">Algorithm</a>
+  
+    <li><a href="./AriadninaNitTest.html">AriadninaNitTest</a>
+  
+    <li><a href="./Cave.html">Cave</a>
+  
+    <li><a href="./Labyrinth.html">Labyrinth</a>
+  
+    <li><a href="./Path.html">Path</a>
+  
+    <li><a href="./States.html">States</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="class">class Algorithm</h1>
+
+  <div id="description" class="description">
+    
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+    <!-- Attributes -->
+    <section id="attribute-method-details" class="method-section section">
+      <h3 class="section-header">Attributes</h3>
+
+      
+      <div id="attribute-i-count" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">count</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-labyrinth" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">labyrinth</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-output" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">output</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-position" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">position</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-start" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">start</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-stop" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">stop</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+      <div id="attribute-i-trip" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">trip</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        
+        
+        </div>
+      </div>
+      
+    </section><!-- attribute-method-details -->
+    
+
+    <!-- Methods -->
+    
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Class Methods</h3>
+
+    
+      <div id="method-c-new" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">new</span><span
+            class="method-args">(arguments)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="new-source">
+            <pre><span class="ruby-comment"># File lib/algorithm.rb, line 11</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">arguments</span>)
+  <span class="ruby-ivar">@labyrinth</span> = <span class="ruby-constant">Labyrinth</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">arguments</span>[<span class="ruby-value">0</span>].<span class="ruby-identifier">to_s</span>())
+  <span class="ruby-ivar">@start</span> = <span class="ruby-identifier">arguments</span>[<span class="ruby-value">1</span>].<span class="ruby-identifier">to_i</span>()
+  <span class="ruby-ivar">@position</span> = <span class="ruby-identifier">arguments</span>[<span class="ruby-value">1</span>].<span class="ruby-identifier">to_i</span>()
+  <span class="ruby-ivar">@stop</span> = <span class="ruby-identifier">arguments</span>[<span class="ruby-value">2</span>].<span class="ruby-identifier">to_i</span>()
+  <span class="ruby-ivar">@trip</span> = <span class="ruby-constant">Array</span>.<span class="ruby-identifier">new</span>()
+  <span class="ruby-ivar">@output</span> = <span class="ruby-string">&quot;&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- new-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- new-method -->
+
+    
+    </section><!-- public-class-method-details -->
+  
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Instance Methods</h3>
+
+    
+      <div id="method-i-get_next_path" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">get_next_path</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>find out where to go based on previous moves and marks used only for going
+THERE</p>
+          
+
+          
+          <div class="method-source-code" id="get_next_path-source">
+            <pre><span class="ruby-comment"># File lib/algorithm.rb, line 65</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">get_next_path</span>()
+  <span class="ruby-identifier">max</span> = <span class="ruby-value">0</span>;
+  <span class="ruby-identifier">max_path</span> = <span class="ruby-keyword">nil</span>;
+  <span class="ruby-ivar">@labyrinth</span>.<span class="ruby-identifier">get_cave</span>(<span class="ruby-ivar">@position</span>).<span class="ruby-identifier">adj_caves</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">neighbor</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">path</span> = <span class="ruby-ivar">@labyrinth</span>.<span class="ruby-identifier">get_path</span>(<span class="ruby-ivar">@position</span>, <span class="ruby-identifier">neighbor</span>)
+    <span class="ruby-keyword">if</span>(<span class="ruby-identifier">path</span>.<span class="ruby-identifier">number</span> <span class="ruby-operator">==</span> <span class="ruby-value">0</span>)
+      <span class="ruby-keyword">return</span> <span class="ruby-identifier">path</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">if</span>(<span class="ruby-identifier">path</span>.<span class="ruby-identifier">number</span> <span class="ruby-operator">&gt;</span> <span class="ruby-identifier">max</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">path</span>.<span class="ruby-identifier">marked</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">false</span>)
+      <span class="ruby-identifier">max_path</span> = <span class="ruby-identifier">path</span>
+    <span class="ruby-keyword">end</span>
+  }
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">max_path</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- get_next_path-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- get_next_path-method -->
+
+    
+      <div id="method-i-get_path_home" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">get_path_home</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>find out where to go based on previous moves and marks from the way THERE
+used only for going BACK</p>
+          
+
+          
+          <div class="method-source-code" id="get_path_home-source">
+            <pre><span class="ruby-comment"># File lib/algorithm.rb, line 82</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">get_path_home</span>()
+  <span class="ruby-identifier">min</span> = <span class="ruby-ivar">@count</span>;
+  <span class="ruby-identifier">min_path</span> = <span class="ruby-keyword">nil</span>;
+  <span class="ruby-ivar">@labyrinth</span>.<span class="ruby-identifier">get_cave</span>(<span class="ruby-ivar">@position</span>).<span class="ruby-identifier">adj_caves</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">neighbor</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">path</span> = <span class="ruby-ivar">@labyrinth</span>.<span class="ruby-identifier">get_path</span>(<span class="ruby-ivar">@position</span>, <span class="ruby-identifier">neighbor</span>)
+    <span class="ruby-keyword">if</span>(<span class="ruby-identifier">path</span>.<span class="ruby-identifier">number</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">min</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">path</span>.<span class="ruby-identifier">number</span> <span class="ruby-operator">!=</span> <span class="ruby-value">0</span>)
+      <span class="ruby-identifier">min</span> = <span class="ruby-identifier">path</span>.<span class="ruby-identifier">number</span>
+      <span class="ruby-identifier">min_path</span> = <span class="ruby-identifier">path</span>
+    <span class="ruby-keyword">end</span>
+  }
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">min_path</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- get_path_home-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- get_path_home-method -->
+
+    
+      <div id="method-i-go_there" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">go_there</span><span
+            class="method-args">(actual_path)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>make an actual move from one cave to another</p>
+          
+
+          
+          <div class="method-source-code" id="go_there-source">
+            <pre><span class="ruby-comment"># File lib/algorithm.rb, line 52</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">go_there</span>(<span class="ruby-identifier">actual_path</span>)
+  <span class="ruby-ivar">@trip</span>.<span class="ruby-identifier">push</span>(<span class="ruby-identifier">actual_path</span>)
+  <span class="ruby-keyword">if</span>(<span class="ruby-ivar">@position</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">actual_path</span>.<span class="ruby-identifier">from</span>)
+    <span class="ruby-ivar">@output</span> <span class="ruby-operator">+=</span> <span class="ruby-node">&quot;#{@position} -&gt; #{actual_path.to}, &quot;</span>
+    <span class="ruby-ivar">@position</span> = <span class="ruby-identifier">actual_path</span>.<span class="ruby-identifier">to</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@output</span> <span class="ruby-operator">+=</span> <span class="ruby-node">&quot;#{@position} -&gt; #{actual_path.from}, &quot;</span>
+    <span class="ruby-ivar">@position</span> = <span class="ruby-identifier">actual_path</span>.<span class="ruby-identifier">from</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- go_there-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- go_there-method -->
+
+    
+      <div id="method-i-solve" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">solve</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>core method where the path THERE and BACK is found</p>
+          
+
+          
+          <div class="method-source-code" id="solve-source">
+            <pre><span class="ruby-comment"># File lib/algorithm.rb, line 21</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">solve</span>
+  <span class="ruby-ivar">@position</span> = <span class="ruby-ivar">@start</span>
+  <span class="ruby-ivar">@count</span> = <span class="ruby-value">1</span>
+
+  <span class="ruby-comment"># GO THERE</span>
+  <span class="ruby-ivar">@output</span> <span class="ruby-operator">+=</span> <span class="ruby-string">&quot;GO AND FIND IT\r\n&quot;</span>
+  <span class="ruby-keyword">while</span>(<span class="ruby-ivar">@position</span> <span class="ruby-operator">!=</span> <span class="ruby-ivar">@stop</span>)
+    <span class="ruby-comment"># find out where to go</span>
+    <span class="ruby-identifier">actual_path</span> = <span class="ruby-identifier">get_next_path</span>()
+    <span class="ruby-keyword">if</span>(<span class="ruby-identifier">actual_path</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">nil</span>)
+      <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;no path available&quot;</span>
+      <span class="ruby-keyword">return</span> <span class="ruby-string">&quot;no path available&quot;</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-comment"># go there and make a note</span>
+    <span class="ruby-identifier">actual_path</span>.<span class="ruby-identifier">use_path</span>(<span class="ruby-ivar">@count</span>)
+    <span class="ruby-ivar">@count</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+    <span class="ruby-identifier">go_there</span>(<span class="ruby-identifier">actual_path</span>)
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-comment"># GO BACK AS FAST AS POSSIBLE</span>
+  <span class="ruby-ivar">@output</span> <span class="ruby-operator">+=</span> <span class="ruby-string">&quot;\r\nAND NOW GO BACK\r\n&quot;</span>
+  <span class="ruby-keyword">while</span>(<span class="ruby-ivar">@position</span> <span class="ruby-operator">!=</span> <span class="ruby-ivar">@start</span>)
+    <span class="ruby-identifier">actual_path</span> = <span class="ruby-identifier">get_path_home</span>()
+    <span class="ruby-identifier">go_there</span>(<span class="ruby-identifier">actual_path</span>)
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;#{@output}&quot;</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-ivar">@output</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- solve-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- solve-method -->
+
+    
+    </section><!-- public-instance-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 3.12.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+
